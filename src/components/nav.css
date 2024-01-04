@@ -1,0 +1,31 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    height: 3rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between logo and site name */
+}
+
+#logo-name {
+    color: #00FFFF;
+}
+
+#links {
+    color: #54e2ec;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
